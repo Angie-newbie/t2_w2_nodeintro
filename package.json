@@ -1,0 +1,22 @@
+{
+  "name": "t2_w2_nodeintro",
+  "version": "1.0.0",
+  "description": "Introductory Node and Express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angie-newbie/t2_w2_nodeintro.git"
+  },
+  "author": "Angie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angie-newbie/t2_w2_nodeintro/issues"
+  },
+  "homepage": "https://github.com/Angie-newbie/t2_w2_nodeintro#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
