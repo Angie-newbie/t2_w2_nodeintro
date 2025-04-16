@@ -1,6 +1,6 @@
 // import express from 'express' //Import the default export 
 import { Router } from "express" // Destructures Router from within the default export
-import Post from "../models/post"
+import Post from '../models/post.js'
 
 const posts = [
     {
@@ -24,5 +24,16 @@ router.get(`/posts`, async(req, res)=> {
 
 //Get one post 
 
+// Create a new post
+//Post /posts
+router.post('/posts/:id', (req,res) => {
+    //Get post data from the request body
+    const bodyData = req.body
+    console.log(bodyData)
+    // Create new Post instance
+    // commit new Post instance to db
+    // Send .. to the client
+    res.send('Post /posts')
+})
 //One default ecport allowed per module
 export default router;
