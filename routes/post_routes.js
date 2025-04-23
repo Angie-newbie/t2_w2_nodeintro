@@ -56,5 +56,8 @@ router.post('/posts', (req,res) => {
     // Send .. to the client
     res.send('POST /posts')
 })
+
+// Update a post
+// Delete a post
 //One default ecport allowed per module
 export default router;
