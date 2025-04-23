@@ -47,14 +47,14 @@ router.get('/posts/:id', (req, res) => {
 
 // Create a new post
 //Post /posts
-router.post('/posts/:id', (req,res) => {
+router.post('/posts', (req,res) => {
     //Get post data from the request body
     const bodyData = req.body
     console.log(bodyData)
     // Create new Post instance
     // commit new Post instance to db
     // Send .. to the client
-    res.send('Post /posts')
+    res.send('POST /posts')
 })
 //One default ecport allowed per module
 export default router;
